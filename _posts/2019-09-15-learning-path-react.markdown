@@ -9,5 +9,7 @@ tags: [Education, Software, Javascript, ReactJs, Typescript]
 # learning-path-react
 So I decided to learn reactjs and I'll record the steps that I took throught the journey.
 
+CMUnity is an open-source project, where i'll build feature by feature application until reach the main goal: Build a community portal where communities can manage their own user groups meetups. 
+
 # Journey
 Project [CMUnity](https://masterzdran.github.io/learning-path-react/).
