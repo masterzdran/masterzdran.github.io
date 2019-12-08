@@ -365,6 +365,9 @@ Now that we have two blazor applications (server and webassembly) working, the n
 
 Any question? I'll do my best to help you.
 
+# Source Code
+All the code can be reached at https://github.com/masterzdran/BlazorPlayground
+
 # Resources
 * [2019-12-06] https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/  
 * [2019-12-06] https://docs.microsoft.com/en-us/aspnet/core/blazor/routing?view=aspnetcore-3.1
