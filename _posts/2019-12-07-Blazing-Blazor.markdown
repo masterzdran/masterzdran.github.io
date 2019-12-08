@@ -7,8 +7,6 @@ img: Blazing_Blazor.png
 tags: [Blazor, Netcore, Web Development, Education, Software]
 ---
 
-![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/Blazing_Blazor.png)
-
 Netcore 3.1 was just [released few days ago](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/) and it was released as long-term supported (LTS) release. It seems the right time to play with Blazor.
 
 This article I will start a new Visual Studio Solution, I'll call it *BlazorPlayground*, and from the default project templates I'll will play around with the playground. Nothing to fancy.
