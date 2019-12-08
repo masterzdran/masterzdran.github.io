@@ -253,7 +253,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
     AdditionalAssemblies="new[] { typeof(Component1).Assembly }">
     <!-- 
         ...
-    -->s  
+    -->  
 </Router>
 ```
 
@@ -262,6 +262,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 ## Challenge #01: Fixing Application Routing
 * Open App.razor and add the additional assemblies:
+
 ```
 <Router AppAssembly="@typeof(Program).Assembly"
         AdditionalAssemblies="new[] { typeof(CommonRazorComponents.Index).Assembly }">
