@@ -365,6 +365,7 @@ Now that we have two blazor applications (server and webassembly) working, the n
 
 Any question? I'll do my best to help you.
 
+
 # Source Code
 All the code can be reached at https://github.com/masterzdran/BlazorPlayground
 
