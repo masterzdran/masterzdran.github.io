@@ -247,7 +247,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 > In the following example, Component1 is a routable component defined in a referenced class library. The following AdditionalAssemblies example results in routing support for Component1:
 
-```xml
+```html
 <Router
     AppAssembly="typeof(Program).Assembly"
     AdditionalAssemblies="new[] { typeof(Component1).Assembly }">
@@ -262,7 +262,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 ## Challenge #01: Fixing Application Routing
 * Open App.razor and add the additional assemblies:
-```xml
+```html
 <Router AppAssembly="@typeof(Program).Assembly"
         AdditionalAssemblies="new[] { typeof(CommonRazorComponents.Index).Assembly }">
         <!-- 
@@ -345,7 +345,7 @@ By now the solution should be working and decoupled:
 * CommonRazorComponents
     * ModelsAndAbstractions
     * ServicesConsumed
-    
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/17-BlazingBlazorRelations.png)
 
 Blazor applications refers the libraries that they need (for DI, composition, etc).
