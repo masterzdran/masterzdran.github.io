@@ -247,7 +247,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 > In the following example, Component1 is a routable component defined in a referenced class library. The following AdditionalAssemblies example results in routing support for Component1:
 
-```html
+```
 <Router
     AppAssembly="typeof(Program).Assembly"
     AdditionalAssemblies="new[] { typeof(Component1).Assembly }">
@@ -262,7 +262,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 ## Challenge #01: Fixing Application Routing
 * Open App.razor and add the additional assemblies:
-```html
+```
 <Router AppAssembly="@typeof(Program).Assembly"
         AdditionalAssemblies="new[] { typeof(CommonRazorComponents.Index).Assembly }">
         <!-- 
