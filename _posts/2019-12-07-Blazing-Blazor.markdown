@@ -35,39 +35,48 @@ No new functionality will be added, the applications are just .... refactored.
 I'll start by creating the projects, their structure and reference them.
 ## *BlazorServer* project
 * Create a new Solution and choose *Blazor App* project.
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/01-NewSolution.png)
 
 * Set Project name as "BlazorServer".
 * Set Solution name as "BlazorPlayground".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/02-BlazorServerApp.png)
 
 * Set Target Framework as "ASP.NET Core 3.1"
 * Set Template as "Blazor Server App".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/03-BlazorServerApp.png)
 
 * Click Create.
 
 ## *BlazorWebAssembly* project
 * Create a new Project and choose *Blazor App* project.
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/01-NewSolution.png)
 
 * Set Project name as "BlazorWebAssembly".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/04-BlazorWebAssemblyProject.png)
 
 * Set Target Framework as "ASP.NET Core 3.1"
 * Set Template as "Blazor WebAssembly App".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/05-BlazorWebAssemblyApp.png)
 
 * Click Create.
 
 ## Checkpoint 01
 The Solution has two projects by now:
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/06-BlazorPlayground01.png)
 
 And by executing the *BlazorServer* project:
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/07-BlazorServerWebApp.png)
 
 And by executing the *BlazorWebAssembly* project:
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/08-BlazorWebAssemblyWebApp.png)
 
 Everything is working without any issues.
@@ -76,6 +85,7 @@ Everything is working without any issues.
 ## *ModelsAndAbstractions* project
 * Create a new Project and choose *Class library(.Net Standard)* project.
 * Set Project name as "ModelsAndAbstractions".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/09-ModelsAndAbstractions.png)
 * Click Create.
 * Delete the new created "Class1.cs".
@@ -85,6 +95,7 @@ Everything is working without any issues.
 ## *ServicesConsumed* project
 * Create a new Project and choose *Class library(.Net Standard)* project.
 * Set Project name as "ServicesConsumed".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/10-ServicesConsumed.png)
 * Click Create.
 * Delete the new created "Class1.cs"
@@ -97,8 +108,10 @@ Everything is working without any issues.
 ## Checkpoint 02
 By now the solution as the following structure:
 ### Blazor Projects
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/11-Projects.png)
 ### Libraries
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/12-Libraries.png)
 
 Hence only projects (empty) were added there is no need to check if both applications are still working. 
@@ -186,14 +199,17 @@ So they will be extracted and created in a new library.
 
 ## Razor Components Library
 * So create a new Project and choose *Razor Class library* project.
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/13-RazorProject.png)
 
 * Set Project name as "CommonRazorComponents".
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/15-RazorProject2.png)
 
 * Click Create.
 
 The Project structure looks like this:
+
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/16-CommonRazorComponentsStructure.png)
 
 * Delete:
@@ -230,11 +246,14 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 > Use the AdditionalAssemblies parameter to specify additional assemblies for the Router component to consider when searching for routable components. Specified assemblies are considered in addition to the AppAssembly-specified assembly.
 
 > In the following example, Component1 is a routable component defined in a referenced class library. The following AdditionalAssemblies example results in routing support for Component1:
-```csharp
+
+```xml
 <Router
     AppAssembly="typeof(Program).Assembly"
     AdditionalAssemblies="new[] { typeof(Component1).Assembly }">
-    ...
+    <!-- 
+        ...
+    -->s  
 </Router>
 ```
 
@@ -243,7 +262,7 @@ So we have the pages, they were shown before they were moves, so .... let us go 
 
 ## Challenge #01: Fixing Application Routing
 * Open App.razor and add the additional assemblies:
-```csharp
+```xml
 <Router AppAssembly="@typeof(Program).Assembly"
         AdditionalAssemblies="new[] { typeof(CommonRazorComponents.Index).Assembly }">
         <!-- 
@@ -326,6 +345,7 @@ By now the solution should be working and decoupled:
 * CommonRazorComponents
     * ModelsAndAbstractions
     * ServicesConsumed
+    
 ![Blazing Blazor]({{site.baseurl}}/assets/img/BlazingBlazor/17-BlazingBlazorRelations.png)
 
 Blazor applications refers the libraries that they need (for DI, composition, etc).
