@@ -1,0 +1,13 @@
+#------------------------------------------------------------------------------
+# Jekyll serves Github Pages locally
+# ... because I'm a developer and I too lazy.
+#------------------------------------------------------------------------------
+version: "3.0"
+services:
+    Jekyll:
+        image: starefossen/github-pages
+        container_name: JekyllServer
+        ports:
+            - 4000:4000
+        volumes:
+            - .:/usr/src/app

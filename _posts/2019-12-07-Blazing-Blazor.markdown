@@ -4,6 +4,7 @@ title: Blazing Blazor
 date: 2019-12-07 12:00:00 +0100
 description: Netcore 3.1 was just released few days ago and it was released as long-term supported (LTS) release. It seems the right time to play with Blazor.
 img: Blazing_Blazor.png
+cover: Blazing_Blazor-cover.png
 tags: [Blazor, Netcore, Web Development, Education, Software]
 ---
 
