@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazing Blazor - Part II
+title: Blazing Blazor - What is different and similar?
 date: 2019-12-17 12:00:00 +0100
 description: What is different between Blazor Server and Blazor WebAssembly projects.
 img: Blazing_Blazor.png
