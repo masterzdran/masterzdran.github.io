@@ -1479,3 +1479,11 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.posts-footer{
+  position: fixed;
+  bottom: 0;
+}
+.posts-no-more{
+  color:lightgray
+}
