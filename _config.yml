@@ -22,6 +22,7 @@ discus-identifier: masterzdran-github-io # add your discus identifier
 
 # Tracker
 analytics: UA-148007585-1 # Google Analytics
+adsense: ca-pub-4816532281628693 # Google Adsense
 
 # Build Settings
 markdown: kramdown
