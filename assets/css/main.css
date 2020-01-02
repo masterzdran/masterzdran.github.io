@@ -1117,7 +1117,7 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
+  min-height: 10rem;
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
@@ -1139,7 +1139,7 @@ footer .copyright {
 .post .post-thumbnail {
   width: 30%;
   max-width: 100%;
-  min-height: 11rem;
+  min-height: 10rem;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: 50% 50%;
