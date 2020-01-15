@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tools for Developers? Welcome to Visual Studio Dev Essencials.
+title: Tools for Developers? Welcome to Visual Studio Dev Essentials.
 date: 2020-01-15 12:00:00 +0100
-description: Overview of the Visual Studio Dev Essencials.
+description: Overview of the Visual Studio Dev Essentials.
 img: Visual_Studio_Dev_Essentials.png
 cover: Visual_Studio_Dev_Essentials-cover.png
 tags:
@@ -21,13 +21,13 @@ tags:
   ]
 ---
 
-I have been a software engineer for quite some time, and i remember the time when it was more chanllenging to deploy your application, have a sql database to work on, host your developed code privatly and publicly. For example, I remember the time that I worked with java and to deploy my app for free, it was like a scene of the Indiana Jones movies. Fortunally, the world has changed and it become more easy to have almost every service on the same hub.
+I have been a software engineer for quite some time, and i remember the time when it was more challenging to deploy your application, have a sql database to work on, host your developed code privately and publicly. For example, I remember the time that I worked with java and to deploy my app for free, it was like a scene of the Indiana Jones movies. Fortunelly, the world has changed and it become more easy to have almost every service on the same hub.
 
-Few years ago I tried it out Microsoft program [Visual Studio Dev Essencials](https://visualstudio.microsoft.com/dev-essentials/). Yes, I said years. The program isn't new and it has grown through the time.
+Few years ago I tried it out Microsoft program [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/). Yes, I said years. The program isn't new and it has grown through the time.
 
-# What is the "Visual Studio Dev Essencials"?
+# What is the "Visual Studio Dev Essentials"?
 
-In an nutshell ... it is a catalog of free (or trial free) tools, cloud services and training. You need to have an Microsoft account, which is free also, to register the program.
+In an nutshell ... it is a catalogue of free (or trial free) tools, cloud services and training. You need to have an Microsoft account, which is free also, to register the program.
 
 Once inside you reach you developer hub.
 
@@ -55,7 +55,7 @@ On these page you have four sections:
   - Azure Community
   - Developer Community
 
-These benefits, most likelly, will change through time and may increase if you have a MSDN subscription.
+These benefits, most likely, will change through time and may increase if you have a MSDN subscription.
 
 ## Downloads
 
@@ -81,11 +81,11 @@ Search for "Extensions for the Visual Studio family of products".
 
 IMHO, there are two must have services up and running from this program: Azure DevOps and Azure Cloud Services.
 
-In [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/), after you create your organization (which is the name of the scope of your solution), you will have a set of tools that will assist you within your project. You have boards, repositories, test plans, pipelines, artifacts and a marketplace that will assist you in manage and control your project.
+In [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/), after you create your organization (which is the name of the scope of your solution), you will have a set of tools that will assist you within your project. You have boards, repositories, test plans, pipelines, artefacts and a marketplace that will assist you in manage and control your project.
 
-In [Azure](https://azure.microsoft.com/), you will have access to a dozens of free services and credit to use on paid services. You can host a website with access to a Azure SQL Database (or Posgres or MySql or CosmosDB), using your favorite prgramming language :P . Your imagination is the limit.
+In [Azure](https://azure.microsoft.com/), you will have access to a dozens of free services and credit to use on paid services. You can host a website with access to a Azure SQL Database (or Posgres or MySql or CosmosDB), using your favourite programming language :P . Your imagination is the limit.
 
-> Just remember to activate all services to benefit from the "Visual Studio Dev Essencials" program.
+> Just remember to activate all services to benefit from the "Visual Studio Dev Essentials" program.
 
 > Regarding the training benefits, activate them when you have time to attend the e-learning courses. :)
 
