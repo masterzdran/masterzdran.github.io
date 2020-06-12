@@ -6,7 +6,11 @@ layout: main
     {% if page.img %}
     <div class="page-cover-image">
       <figure>
+        {% if page.img-remote %}
+        <img class="page-image" src="{{page.cover}}" alt="{{page.title}}">
+        {% else %}
         <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.cover}} alt="{{page.title}}">
+        {% endif %}    
         {% if page.fig-caption %}
           <figcaption>{{page.fig-caption}}</figcaption>
         {% endif %}
