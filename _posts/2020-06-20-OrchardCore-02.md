@@ -5,7 +5,7 @@ date: 2020-06-20 12:00:00 +0100
 description: Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.
 img-remote: "yes"
 img: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/orchard-logo.png
-cover: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/OrchardCore.01.png
+cover: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/OrchardCore.02.png
 tags:
   [
     Visual Studio,
