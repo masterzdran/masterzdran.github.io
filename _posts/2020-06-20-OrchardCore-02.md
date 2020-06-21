@@ -1,24 +1,24 @@
 ---
 layout: post
 title: OrchardCore, CMS for ASP.NET Core (Part 02).
-date: 2020-06-20 12:00:00 +0100
+date: 2020-06-10 12:00:00 +0100
 description: Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.
 img-remote: "yes"
 img: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/orchard-logo.png
 cover: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/OrchardCore.02.png
 tags:
-  [
-    Visual Studio,
-    Development,
-    Education,
-    Software,
-    OrchardCore,
-    CMS,
-    dotnet,
-    netcore,
-    Jetbrains,
-    Rider,
-  ]
+  [
+    Visual Studio,
+    Development,
+    Education,
+    Software,
+    OrchardCore,
+    CMS,
+    dotnet,
+    netcore,
+    Jetbrains,
+    Rider,
+  ]
 ---
 
 In my last article I started by creating a CMS project from scratch and suggested that you explore the several recipes and check their purposes. 
