@@ -202,7 +202,7 @@ Tcharan.... We are done
 Get around the Orchard Core source code and documentation and get acquainted with the available features, steps and the way the content parts and content type are described.
 
 # Conclusion
-In the next article, I explained how we can develop a custom Orchard Core Recipe. This was pretty simple, but it covers the basics of the recipes. T
+In the next article, I explained how we can develop a custom Orchard Core Recipe. This was pretty simple, but it covers the basics of the recipes.
 
 
 # Resources
