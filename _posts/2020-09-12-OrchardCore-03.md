@@ -4,8 +4,8 @@ title: OrchardCore, CMS for ASP.NET Core (Part 03).
 date: 2020-09-12 12:00:00 +0100
 description: Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core.
 img-remote: "yes"
-img: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/orchard-logo.png
-cover: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/OrchardCore.03.png
+img: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/orchard-logo.png
+cover: https://webfilesstorageblog.blob.core.windows.net/cdn/blog/img/OrchardCore.03.png
 tags:
   [
     Visual Studio,
