@@ -5,10 +5,10 @@
 version: "3.0"
 services:
   Jekyll:
-    image: starefossen/github-pages
+    image: starefossen/github-pages:198
     container_name: JekyllServer
     ports:
-      - 4000:4000
+      - 50061:4000
     volumes:
       - .:/usr/src/app
     tty: true
